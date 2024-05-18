@@ -1,0 +1,73 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    /* background-color:hsl(15, 17%, 0%); */
+    background-color:hsl(15, 17%, 0%);
+    }
+    section{
+
+    }
+.container{
+    background-color:hsl(0, 0%, 8%);
+    width: 300px;
+    height: 500px;
+    padding: 24px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;  
+}
+.img {
+    width: 50%;
+    border-radius:10px;
+    display: inherit;
+    max-width: 100%;
+    aspect-ratio: 1;
+    margin: 0 auto;
+    place-content:center;
+}
+button{
+    text-decoration: none;
+    /* background-color:hsl(0, 0, 8%);  */
+     display: flex;
+     width: 250px;
+     height: 40px;
+     border-radius: 8px;
+     align-items:center; 
+     display: inherit; 
+      aspect-ratio: 1;
+      margin-top: 15px; 
+     /* border: 400px; */
+     background-color :black;
+     border-style: none;
+ /* flex-direction: column;
+ align-items: center; */
+}
+h3{
+    color:hsl(0, 0%, 100%);
+    padding: 10px;
+    text-align: center;
+}
+p{
+    color: hsl(75, 94%, 57%);
+    padding: 5px;
+    text-align: center;
+}
+h5{
+    color:hsl(0, 0%, 100%);
+    padding: 5px;
+    /* align-items: center; */
+}
+a{
+    color:hsl(0, 0%, 100%);
+    /* background-color: black;  */
+    text-decoration: none;
+}
+.box :hover{
+    background-color: hsl(75, 94%, 57%) ;
+    color: hsl(0, 0%, 8%);
+}
